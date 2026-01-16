@@ -3,8 +3,9 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "test": "jest",
+  "test:coverage": "jest --coverage"
+},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/aziza-adzhieva-vinci/ipl-social.git"
