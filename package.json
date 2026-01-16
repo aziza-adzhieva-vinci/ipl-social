@@ -4,7 +4,10 @@
   "main": "index.js",
   "scripts": {
   "test": "jest",
-  "test:coverage": "jest --coverage"
+  "test:coverage": "jest --coverage",
+  "lint": "eslint .",
+  "format": "prettier --write .",
+  "format:check": "prettier --check ."
 },
   "repository": {
     "type": "git",
@@ -19,11 +22,16 @@
   "homepage": "https://github.com/aziza-adzhieva-vinci/ipl-social#readme",
   "description": "",
   "devDependencies": {
+    "@eslint/js": "^9.39.2",
     "@types/jest": "^30.0.0",
     "@types/node": "^25.0.9",
+    "eslint": "^9.39.2",
+    "globals": "^17.0.0",
     "jest": "^30.2.0",
+    "prettier": "^3.8.0",
     "ts-jest": "^29.4.6",
     "ts-node": "^10.9.2",
-    "typescript": "^5.9.3"
+    "typescript": "^5.9.3",
+    "typescript-eslint": "^8.53.0"
   }
 }
